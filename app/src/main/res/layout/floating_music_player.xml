@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/floating_player_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:padding="8dp">
+
+    <!-- 添加你的音乐播放界面布局元素，例如歌曲名、艺术家、播放按钮等 -->
+    <TextView
+        android:id="@+id/floating_song_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:text="Song Name"
+        android:layout_marginBottom="4dp" />
+
+    <TextView
+        android:id="@+id/floating_artist_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:text="Artist Name"
+        android:layout_below="@+id/floating_song_name" />
+</RelativeLayout>
